@@ -40,20 +40,21 @@ const AboutPage = () => {
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
-            <p className="text-lg">
-              Hi there, I'm Gollavilli Dhanush Kumar, a skilled full-stack web
-              developer with a passion for creating captivating websites. I'm
-              eager to explore the realms of Machine Learning and AI while
-              maintaining a results-driven approach. I thrive both in
-              collaborative environments and as a focused individual, bringing
-              efficiency and a touch of humor to my work.
-            </p>
-            {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              In addition to my technical skills, I'm committed to continual
-              learning and growth, always seeking new challenges to push my
-              boundaries further.
-            </span>
+            // BIOGRAPHY DESC
+<p className="text-lg">
+  Hi there, I&apos;m Gollavilli Dhanush Kumar, a skilled full-stack web
+  developer with a passion for creating captivating websites. I&apos;m
+  eager to explore the realms of Machine Learning and AI while
+  maintaining a results-driven approach. I thrive both in
+  collaborative environments and as a focused individual, bringing
+  efficiency and a touch of humor to my work.
+</p>
+{/* BIOGRAPHY QUOTE */}
+<span className="italic">
+  In addition to my technical skills, I&apos;m committed to continual
+  learning and growth, always seeking new challenges to push my
+  boundaries further.
+</span>
             {/* BIOGRAPHY SIGN SVG*/}
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
