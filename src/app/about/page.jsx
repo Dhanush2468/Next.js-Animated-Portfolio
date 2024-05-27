@@ -39,7 +39,7 @@ const AboutPage = () => {
             />
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-            // BIOGRAPHY DESC
+            {/* BIOGRAPHY DESC */}
             <p className="text-lg">
               Hi there, I&apos;m Gollavilli Dhanush Kumar, a skilled full-stack
               web developer with a passion for creating captivating websites.
@@ -54,6 +54,10 @@ const AboutPage = () => {
               continual learning and growth, always seeking new challenges to
               push my boundaries further.
             </span>
+            {/* BIOGRAPHY SIGN SVG*/}
+            <div className="self-end">
+              <Image src={logoSVG} alt="Logo" width={185} height={77} />
+            </div>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -180,6 +184,7 @@ const AboutPage = () => {
               ></path>
             </motion.svg>
           </div>
+
           {/* EXPERIENCE CONTAINER */}
           <div
             className="flex flex-col gap-12 justify-center pb-48"
@@ -256,10 +261,7 @@ const AboutPage = () => {
                     I provided web solutions, applying a range of technologies
                     to address client requirements.{" "}
                   </div>
-                  {/* BIOGRAPHY SIGN SVG*/}
-                  <div className="self-end">
-                    <Image src={logoSVG} alt="Logo" width={185} height={77} />
-                  </div>
+
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     2022 - 2023{" "}
