@@ -41,23 +41,24 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             // BIOGRAPHY DESC
-<p className="text-lg">
-  Hi there, I&apos;m Gollavilli Dhanush Kumar, a skilled full-stack web
-  developer with a passion for creating captivating websites. I&apos;m
-  eager to explore the realms of Machine Learning and AI while
-  maintaining a results-driven approach. I thrive both in
-  collaborative environments and as a focused individual, bringing
-  efficiency and a touch of humor to my work.
-</p>
-{/* BIOGRAPHY QUOTE */}
-<span className="italic">
-  In addition to my technical skills, I&apos;m committed to continual
-  learning and growth, always seeking new challenges to push my
-  boundaries further.
-</span>
+            <p className="text-lg">
+              Hi there, I&apos;m Gollavilli Dhanush Kumar, a skilled full-stack
+              web developer with a passion for creating captivating websites.
+              I&apos;m eager to explore the realms of Machine Learning and AI
+              while maintaining a results-driven approach. I thrive both in
+              collaborative environments and as a focused individual, bringing
+              efficiency and a touch of humor to my work.
+            </p>
+            {/* BIOGRAPHY QUOTE */}
+            <span className="italic">
+              In addition to my technical skills, I&apos;m committed to
+              continual learning and growth, always seeking new challenges to
+              push my boundaries further.
+            </span>
             {/* BIOGRAPHY SIGN SVG*/}
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
+              {/* BIOGRAPHY SIGN SVG */}
               <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +121,6 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
                 </g>
               </svg>
             </div>
-
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -189,11 +189,11 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Node.js
               </div>
-              
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Express.js
               </div>
-              
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Redux
               </div>
@@ -212,7 +212,7 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Vite
               </div>
-              
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 AWS
               </div>
@@ -222,7 +222,6 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Git
               </div>
-              
             </motion.div>
             {/* SKILL SCROLL SVG */}
             <motion.svg
@@ -274,7 +273,7 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                  Software Engineer 1 – E2
+                    Software Engineer 1 – E2
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -321,7 +320,7 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  I provided web solutions, applying a range of technologies
+                    I provided web solutions, applying a range of technologies
                     to address client requirements.{" "}
                   </div>
                   {/* JOB DATE */}
@@ -344,7 +343,7 @@ c-36 -51 -70 -94 -77 -97 -19 -6 -15 74 7 116 10 20 28 45 39 55 24 22 74 37
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  I provided web solutions, applying a range of technologies
+                    I provided web solutions, applying a range of technologies
                     to address client requirements.{" "}
                   </div>
                   {/* JOB DATE */}
